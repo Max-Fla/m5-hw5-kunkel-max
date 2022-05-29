@@ -1,0 +1,64 @@
+.navbar {
+    overflow: auto
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 20px;
+    margin-bottom: 30px;
+    color:black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 20%;
+    text-align: center;
+  }
+
+  .navbar a.active {
+    background-color:steelblue;
+    color:white
+  }
+
+  body {
+    max-width: 800px;
+    margin: 24px auto;
+  }
+
+  img {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 5px;
+  }
+
+  article {
+    float: left;
+    max-width: 500px;
+    padding: 20px;
+    background-color:white;
+  }
+
+  main > aside {
+    float: right;
+    max-width: 200px;
+    padding: 20px;
+    background-color:white;
+  }
+
+  main::after {
+    content: "";
+    clear:both;
+    display:block;
+  }
+
+  footer {
+    text-align: center;
+    margin: 40px 0 20px;
+    padding: 1px;
+    background-color: lightgrey;
+  }
+
+  h1, h2 {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color:steelblue;
+    text-decoration: underline;
+  }
